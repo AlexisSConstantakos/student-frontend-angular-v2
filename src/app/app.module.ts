@@ -2,8 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule }   from '@angular/forms';
 import { RouterModule }   from '@angular/router';
+import { MdDialogModule } from '@angular/material';
 import { HttpModule } from '@angular/http';
-import { MaterialModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
@@ -30,8 +30,8 @@ import { StatusMessageComponent } from './status-message/status-message.componen
     BrowserModule,
     AppRoutingModule,
     HttpModule,
-    MaterialModule,
     BrowserAnimationsModule,
+    MdDialogModule,
     FormsModule
   ],
   entryComponents: [DeleteConfirmComponent],
